@@ -101,7 +101,7 @@ const FinalButtons = () => {
     const sendData = async (data) => {
         try {
             const response = await Axios.post(
-                'http://127.0.0.1:3000/NSRCal/api/v1/displaySortedSRValues',
+                'https://niftysr.onrender.com/NSRCal/api/v1/displaySortedSRValues',
               data,
               {
                 withCredentials: true,

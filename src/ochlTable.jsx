@@ -24,7 +24,7 @@ const OpenCloseHighLowTable = () => {
   const sendOchlValues = async (data) => {
     try {
       const response = await Axios.post(
-        'http://127.0.0.1:3000/NSRCal/api/v1/calculateSRValues',
+        'https://niftysr.onrender.com/NSRCal/api/v1/calculateSRValues',
         data,
         {
           withCredentials: true,
